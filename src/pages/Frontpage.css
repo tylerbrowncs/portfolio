@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    padding-top: 25vh;
+  }
+.portrait {
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: solid 5px rgba(255, 255, 255, 0.843);
+    box-shadow: 2px 2px 4px black;;
+}
+
+.description {
+    max-width: 500px;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding-bottom: 25px;
+}
+
+.nameHeader {
+    margin-bottom: 8px;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.home span span a {
+    margin: 10px;
+}
+
+.home span span img {
+    width: 40px;
+}

@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(227, 227,237, 0.28);
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    width: 15vw;
+    border-radius: 5px;
+}
+.navbar ul li {
+    display: inline;
+    padding: 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li a:hover {
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.41);
+
+}
