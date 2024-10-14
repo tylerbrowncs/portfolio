@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <div className="navbar">
        <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">Projects</a></li>
-        <li><a href="about.asp">About</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="projects">PROJECTS</a></li>
+        <li><a href="about">ABOUT</a></li>
     </ul> 
     </div>
   );

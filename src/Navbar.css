@@ -7,15 +7,17 @@
     list-style-type: none;
     margin: 15px;
     padding: 10px;
-    box-shadow: 0 0 30px rgb(227, 227,237, 0.28);
-    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(76, 75, 75, 0.653);
+    border: 1.5px solid rgba(58, 58, 58, 0.511);
     backdrop-filter: blur(30px);
-    width: 15vw;
+    width: 400px;
     border-radius: 5px;
 }
 .navbar ul li {
     display: inline;
     padding: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .navbar ul li a {
@@ -23,14 +25,14 @@
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 10px;
     transition: 0.5s;
 
 }
 
 .navbar ul li a:hover {
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0.41);
+    
+    color: rgb(243, 118, 118);
 
 }
